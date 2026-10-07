@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Поехали — Wi-Fi хот-споты в Омске</title>
+<style>
+:root{--bg:#f4f8ff;--card:#fff;--text:#0f1b33;--muted:#5a6b88;--accent:#1a73ff;--accent2:#00c2a8;--line:#dce6f7;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1224;--card:#121c33;--text:#eaf1ff;--muted:#93a4c4;--line:#22304f}}
+:root[data-theme="dark"]{--bg:#0a1224;--card:#121c33;--text:#eaf1ff;--muted:#93a4c4;--line:#22304f}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.55}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px}
+.btn{display:inline-block;padding:13px 24px;border-radius:999px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;text-decoration:none;font-weight:700}
+.btn.ghost{background:transparent;color:var(--text);border:1.5px solid var(--line)}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center;padding:40px 0 56px}
+h1{font-size:clamp(32px,6vw,54px);line-height:1.08;margin:0 0 16px}
+h1 span{background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{color:var(--muted);font-size:18px;margin:0 0 26px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.art{display:flex;justify-content:center}
+h2{font-size:30px;margin:0 0 24px}
+section{padding:36px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px}
+.card b{display:block;font-size:18px;margin-bottom:6px}
+.card p{margin:0;color:var(--muted)}
+.ico{width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:grid;place-items:center;margin-bottom:14px;color:#fff;font-size:22px}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.contact .card a{color:var(--accent);text-decoration:none;font-weight:700}
+.big{font-size:28px}
+footer{padding:30px 0 40px;color:var(--muted);text-align:center;font-size:14px;border-top:1px solid var(--line);margin-top:30px}
+@media(max-width:760px){.hero,.contact{grid-template-columns:1fr}.art{order:-1}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="logo">
+    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#1a73ff" stroke-width="2.4" stroke-linecap="round"><path d="M2 9a15 15 0 0 1 20 0"/><path d="M5.5 12.5a10 10 0 0 1 13 0"/><path d="M9 16a5 5 0 0 1 6 0"/><circle cx="12" cy="19.5" r="1.2" fill="#1a73ff"/></svg>
+    Поехали
+  </div>
+  <a class="btn" href="tel:+79051075765">Позвонить</a>
+</header>
+
+<div class="hero">
+  <div>
+    <h1>Wi-Fi хот-споты <span>для связи без границ</span></h1>
+    <p class="lead">Компания «Поехали» предоставляет услуги Wi-Fi хот-спотов в Омске. Быстро выходите в сеть там, где это нужно.</p>
+    <div class="cta">
+      <a class="btn" href="tel:+79051075765">+7 905 107-57-65</a>
+      <a class="btn ghost" href="#contacts">Как нас найти</a>
+    </div>
+  </div>
+  <div class="art">
+    <svg width="280" height="280" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a73ff"/><stop offset="1" stop-color="#00c2a8"/></linearGradient></defs><path d="M1.5 8.5a15.5 15.5 0 0 1 21 0"/><path d="M5 12a10.5 10.5 0 0 1 14 0"/><path d="M8.5 15.5a5.5 5.5 0 0 1 7 0"/><circle cx="12" cy="19" r="1.3" fill="#00c2a8" stroke="none"/></svg>
+  </div>
+</div>
+
+<section>
+  <h2>Почему «Поехали»</h2>
+  <div class="grid">
+    <div class="card"><div class="ico">⚡</div><b>Быстрое подключение</b><p>Подключитесь к сети за пару минут без сложных настроек.</p></div>
+    <div class="card"><div class="ico">📍</div><b>Удобное расположение</b><p>Работаем в районе Казачьей слободы, рядом с остановкой «Казачий рынок».</p></div>
+    <div class="card"><div class="ico">💬</div><b>Помощь по телефону</b><p>Позвоните нам — подскажем и поможем с подключением.</p></div>
+  </div>
+</section>
+
+<section id="contacts">
+  <h2>Контакты</h2>
+  <div class="contact">
+    <div class="card">
+      <b>Телефон</b>
+      <p class="big"><a href="tel:+79051075765">+7 905 107-57-65</a></p>
+      <p style="margin-top:12px"><b>Режим работы</b>Открыто до 20:00</p>
+    </div>
+    <div class="card">
+      <b>Адрес</b>
+      <p>г. Омск, ул. Пушкина, 59<br>Казачья слобода</p>
+      <p style="margin-top:14px"><a href="https://yandex.ru/maps/org/poyekhali/56446268089/" target="_blank" rel="noopener">Открыть в Яндекс Картах →</a></p>
+    </div>
+  </div>
+</section>
+
+<footer>© Поехали · Wi-Fi хот-споты · Омск</footer>
+</div>
+</body>
+</html>
